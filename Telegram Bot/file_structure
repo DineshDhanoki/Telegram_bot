@@ -1,0 +1,29 @@
+hotwheels-restock-bot/
+├─ README.md
+├─ requirements.txt
+├─ .env.example
+├─ config.yaml
+├─ run.py
+├─ bot/
+│  ├─ __init__.py
+│  ├─ app.py
+│  ├─ notifier.py
+│  ├─ repository.py
+│  └─ scheduler.py
+├─ stores/
+│  ├─ __init__.py
+│  ├─ base.py
+│  ├─ generic_api_client.py       # reusable API client (for mobile APIs)
+│  ├─ blinkit_api.py
+│  ├─ swiggy_api.py
+│  ├─ zepto_api.py
+│  ├─ jiomart_api.py
+│  ├─ bigbasket_api.py
+│  ├─ blinkit_playwright.py
+│  └─ swiggy_playwright.py
+├─ infra/
+│  ├─ logging.py
+│  └─ user_agents.py
+├─ Dockerfile
+├─ docker-compose.yml
+└─ Procfile
