@@ -1,0 +1,27 @@
+# Telegram Bot Configuration
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
+TELEGRAM_CHAT_ID=your_chat_id_here
+
+# Location Configuration
+PINCODE=your_pincode_here
+
+# Search Configuration
+SEARCH_TERMS=hot wheels,lego,action figures
+POLL_INTERVAL=300
+
+# Run Mode (api or browser)
+RUN_MODE=api
+
+# Store API URLs (replace with actual API endpoints)
+BLINKIT_API_URL=https://blinkit.com/api/search?pincode={PINCODE}&q={QUERY}
+SWIGGY_API_URL=https://swiggy.com/api/search?pincode={PINCODE}&q={QUERY}
+ZEPTO_API_URL=https://zepto.in/api/search?pincode={PINCODE}&q={QUERY}
+JIOMART_API_URL=https://jiomart.com/api/search?pincode={PINCODE}&q={QUERY}
+BIGBASKET_API_URL=https://bigbasket.com/api/search?pincode={PINCODE}&q={QUERY}
+
+# Store API Headers (JSON format)
+BLINKIT_API_HEADERS_JSON={"User-Agent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36", "Accept": "application/json"}
+SWIGGY_API_HEADERS_JSON={"User-Agent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36", "Accept": "application/json"}
+ZEPTO_API_HEADERS_JSON={"User-Agent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36", "Accept": "application/json"}
+JIOMART_API_HEADERS_JSON={"User-Agent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36", "Accept": "application/json"}
+BIGBASKET_API_HEADERS_JSON={"User-Agent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36", "Accept": "application/json"} 

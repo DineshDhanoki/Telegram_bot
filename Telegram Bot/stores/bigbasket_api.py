@@ -13,10 +13,10 @@ def _load_headers(env_key: str):
     except Exception:
         return {}
 
-class BlinkitAPI:
+class BigBasketAPI:
     def __init__(self, pincode: str):
-        self.url = os.getenv("BLINKIT_API_URL", "").strip()
-        self.headers = _load_headers("BLINKIT_API_HEADERS_JSON")
+        self.url = os.getenv("BIGBASKET_API_URL", "").strip()
+        self.headers = _load_headers("BIGBASKET_API_HEADERS_JSON")
         self.pincode = pincode
         self.client = GenericAPIClient(self.url, self.headers, pincode)
 
